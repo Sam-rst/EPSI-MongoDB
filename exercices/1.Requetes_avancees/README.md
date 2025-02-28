@@ -2,6 +2,8 @@
 
 📌 **Lien exercice** : [Document Google](https://docs.google.com/document/d/1G6O2cJm3UkRyHpbtLCSMxX_D-SQh3ZjES4HXuQeSwa4/edit?tab=t.0)
 
+🔙 **Page précédente :**  [README.md](../README.md)
+
 ---
 
 ## **Exercice 1**
