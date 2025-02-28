@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Licorne",
+    "type": "Créature",
+    "origin": "Monde entier",
+    "description": "Une créature légendaire ressemblant à un cheval avec une corne en spirale unique sur son front, souvent associée à la pureté et aux pouvoirs magiques."
+  },
+  {
+    "name": "Fée",
+    "type": "Être",
+    "origin": "Européen",
+    "description": "Une petite créature semblable à un humain avec des ailes, souvent représentée comme ayant des pouvoirs surnaturels et liée à la nature."
+  },
+  {
+    "name": "Dragon",
+    "type": "Créature",
+    "origin": "Mythologies du monde entier",
+    "description": "Une créature légendaire, souvent représentée comme un grand serpent ou un lézard ailé, capable de cracher du feu et dotée de pouvoirs magiques."
+  },
+  {
+    "name": "Excalibur",
+    "type": "Artefact",
+    "origin": "Légende arthurienne",
+    "description": "L'épée légendaire du roi Arthur, accordant la souveraineté sur la Grande-Bretagne et possédant des pouvoirs magiques."
+  },
+  {
+    "name": "Syntaxe le Malicieux",
+    "type": "Cocker Ensorcelé",
+    "origin": "Toulouse, France",
+    "description": "Syntaxe le Malicieux, plus communément appelez Syn, utile son apparence mignonne et innocente pour facilement tromper ceux qui l'entourent. Bien qu'il ne soit pas le plus intelligent des créatures mythiques, il compense par sa ruse et son comportement imprévisible. Il est soupçonné d'avoir détruit de très nombreuses chaussettes, probablement à des fins maléfiques insoupçonnables"
+  },
+  {
+    "name": "Cerbère",
+    "type": "Créature",
+    "origin": "Mythologie grecque",
+    "description": "Un chien à trois têtes, avec une queue de serpent et une crinière de serpents venimeux, gardien des Enfers, empêchant les morts de s'échapper et les vivants d'entrer."
+  },
+  {
+    "name": "Lutin",
+    "type": "Être",
+    "origin": "Folklore irlandais",
+    "description": "Un petit être espiègle et malicieux, souvent associé à la protection de trésors cachés et ayant des pouvoirs magiques."
+  },
+  {
+    "nom": "Gargouille du Destin",
+    "type": "Gargouille",
+    "origine": "Forêt enchantée de Brocéliande",
+    "description": "La Gargouille du Destin est une créature en pierre qui protège les secrets de la forêt enchantée de Brocéliande. Elle possède des ailes majestueuses et un regard perçant."
+  },
+  {
+    "nom": "Griffon d'Emeraude",
+    "type": "Griffon",
+    "origine": "Forêt enchantée de Brocéliande",
+    "description": "Le Griffon d'Emeraude est un majestueux mélange d'aigle et de lion, doté de plumes d'un vert éclatant. Il protège les trésors cachés dans la forêt enchantée de Brocéliande."
+  },
+  {
+    "nom": "Nymphe des Brumes",
+    "type": "Nymphe",
+    "origine": "Forêt enchantée de Brocéliande",
+    "description": "La Nymphe des Brumes est une créature élégante et insaisissable qui apparaît dans les brumes matinales de la forêt enchantée de Brocéliande. Elle guide et protège les voyageurs perdus."
+  },
+  {
+    "nom": "Cerf d'Argent",
+    "type": "Cerf magique",
+    "origine": "Forêt enchantée de Brocéliande",
+    "description": "Le Cerf d'Argent est un noble cerf aux bois scintillants et au pelage argenté. Il erre dans la forêt enchantée de Brocéliande, semant la magie et la prospérité sur son passage."
+  }
+]
