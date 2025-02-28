@@ -53,7 +53,7 @@ Chaque dossier contient un fichier **README.md** détaillant les exercices et le
 📍 **Fichier :** [`README.md`](./2.Update_delete/README.md)  
 📍 **Données JSON :** [`objectMythique.json`](./2.Update_delete/objectMythique.json), [`mythical2.json`](./2.Update_delete/mythical2.json)
 
----s
+---
 
 **Contenu :**
 
