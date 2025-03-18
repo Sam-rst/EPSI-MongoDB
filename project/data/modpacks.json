@@ -1,0 +1,180 @@
+[
+    {
+      "modpack_id": "tech-revolution",
+      "name": "Tech Revolution",
+      "version": "2.5.0",
+      "description": "Un modpack axé sur la technologie avancée et l'automatisation industrielle",
+      "author": "TechGuru",
+      "minecraft_version": "1.18.2",
+      "loader": "forge",
+      "loader_version": "40.1.85",
+      "mods": [
+        {
+          "mod_id": "jei",
+          "name": "Just Enough Items",
+          "version": "9.7.0.195",
+          "required": true
+        },
+        {
+          "mod_id": "applied-energistics-2",
+          "name": "Applied Energistics 2",
+          "version": "11.1.4",
+          "required": true
+        },
+        {
+          "mod_id": "optifine",
+          "name": "OptiFine",
+          "version": "HD U H9",
+          "required": false
+        }
+      ],
+      "shaders": [
+        {
+          "shader_id": "complementary",
+          "name": "Complementary Shaders",
+          "version": "4.6",
+          "recommended": true
+        },
+        {
+          "shader_id": "sildurs-vibrant",
+          "name": "Sildur's Vibrant Shaders",
+          "version": "1.32",
+          "recommended": false
+        }
+      ],
+      "features": [
+        "Automatisation industrielle",
+        "Systèmes de stockage numériques",
+        "Production d'énergie avancée"
+      ],
+      "recommended_ram": "6GB",
+      "download_count": 865432,
+      "website": "https://www.techrevolution-modpack.com",
+      "created_at": "2022-04-15T00:00:00Z",
+      "updated_at": "2023-01-20T14:30:00Z"
+    },
+    {
+      "modpack_id": "adventure-seekers",
+      "name": "Adventure Seekers",
+      "version": "1.8.3",
+      "description": "L'aventure ultime avec de nouveaux mondes à explorer, des donjons et des boss épiques",
+      "author": "ExplorerTeam",
+      "minecraft_version": "1.18.2",
+      "loader": "forge",
+      "loader_version": "40.1.60",
+      "mods": [
+        {
+          "mod_id": "twilight-forest",
+          "name": "The Twilight Forest",
+          "version": "4.1.1525",
+          "required": true
+        },
+        {
+          "mod_id": "biomes-o-plenty",
+          "name": "Biomes O' Plenty",
+          "version": "16.0.0.154",
+          "required": true
+        },
+        {
+          "mod_id": "jei",
+          "name": "Just Enough Items",
+          "version": "9.7.0.195",
+          "required": true
+        },
+        {
+          "mod_id": "optifine",
+          "name": "OptiFine",
+          "version": "HD U H9",
+          "required": false
+        }
+      ],
+      "shaders": [
+        {
+          "shader_id": "bsl-shaders",
+          "name": "BSL Shaders",
+          "version": "8.2.04",
+          "recommended": true
+        },
+        {
+          "shader_id": "kuda-shaders",
+          "name": "KUDA Shaders",
+          "version": "6.5.56",
+          "recommended": false
+        },
+        {
+          "shader_id": "seus-ptgi",
+          "name": "SEUS PTGI",
+          "version": "HRR 3",
+          "recommended": false,
+          "note": "Pour une expérience visuelle premium"
+        }
+      ],
+      "features": [
+        "Nouvelles dimensions",
+        "Quêtes épiques",
+        "Boss difficiles",
+        "Génération de monde enrichie"
+      ],
+      "recommended_ram": "4GB",
+      "download_count": 543210,
+      "website": "https://www.adventure-seekers-mc.net",
+      "created_at": "2022-05-22T00:00:00Z",
+      "updated_at": "2023-02-05T10:15:00Z"
+    },
+    {
+      "modpack_id": "survival-plus",
+      "name": "Survival Plus",
+      "version": "3.0.1",
+      "description": "Une expérience de survie améliorée avec de nouveaux défis et mécanismes",
+      "author": "SurvivalCrafter",
+      "minecraft_version": "1.18.2",
+      "loader": "forge",
+      "loader_version": "40.1.30",
+      "mods": [
+        {
+          "mod_id": "biomes-o-plenty",
+          "name": "Biomes O' Plenty",
+          "version": "16.0.0.154",
+          "required": true
+        },
+        {
+          "mod_id": "jei",
+          "name": "Just Enough Items",
+          "version": "9.7.0.195",
+          "required": true
+        },
+        {
+          "mod_id": "optifine",
+          "name": "OptiFine",
+          "version": "HD U H9",
+          "required": false
+        }
+      ],
+      "shaders": [
+        {
+          "shader_id": "sildurs-vibrant",
+          "name": "Sildur's Vibrant Shaders",
+          "version": "1.32",
+          "variant": "medium",
+          "recommended": true,
+          "note": "Bonne balance performances/qualité pour la survie"
+        },
+        {
+          "shader_id": "complementary",
+          "name": "Complementary Shaders",
+          "version": "4.6",
+          "recommended": false
+        }
+      ],
+      "features": [
+        "Météo dynamique",
+        "Besoins de survie avancés",
+        "Nouveaux blocs et items"
+      ],
+      "recommended_ram": "4GB",
+      "download_count": 398745,
+      "website": "https://www.survival-plus.com",
+      "created_at": "2022-03-10T00:00:00Z",
+      "updated_at": "2022-12-15T08:45:00Z"
+    }
+  ]

@@ -1,0 +1,316 @@
+[
+    {
+      "shader_id": "seus-ptgi",
+      "name": "SEUS PTGI",
+      "full_name": "Sonic Ether's Unbelievable Shaders - Path Traced Global Illumination",
+      "summary": "Le premier shader avec illumination globale par ray-tracing pour Minecraft",
+      "description": "SEUS PTGI est un shader révolutionnaire qui ajoute du path tracing en temps réel à Minecraft, apportant un éclairage réaliste, des réflexions, des ombres douces et bien plus encore.",
+      "author": {
+        "name": "Sonic Ether",
+        "website": "https://www.sonicether.com/",
+        "donation_url": "https://www.patreon.com/sonicether"
+      },
+      "versions": [
+        {
+          "version_number": "HRR 3",
+          "release_date": "2022-07-21T10:00:00Z",
+          "minecraft_versions": ["1.16.5", "1.17.1", "1.18.2"],
+          "optifine_required": true,
+          "optifine_versions": ["HD U H8", "HD U H9"],
+          "download_url": "https://www.patreon.com/sonicether",
+          "file_size": 15782364,
+          "download_count": 875000,
+          "changelog": "Améliorations des réflexions et optimisation du ray-tracing"
+        }
+      ],
+      "requirements": {
+        "minimum": {
+          "gpu": "NVIDIA GTX 1060 6GB / AMD RX 580",
+          "cpu": "Intel i5 8ème génération / AMD Ryzen 5 2600",
+          "ram": "8GB"
+        },
+        "recommended": {
+          "gpu": "NVIDIA RTX 2070 / AMD RX 5700 XT",
+          "cpu": "Intel i7 9ème génération / AMD Ryzen 7 3700X",
+          "ram": "16GB"
+        }
+      },
+      "features": {
+        "graphical": [
+          "Path tracing",
+          "Illumination globale",
+          "Réflexions par raytracing",
+          "Ombres douces",
+          "Éclairage volumétrique"
+        ]
+      },
+      "media": {
+        "logo": "https://example.com/seus-ptgi-logo.png",
+        "screenshots": [
+          "https://example.com/seus-ptgi-screenshot1.jpg",
+          "https://example.com/seus-ptgi-screenshot2.jpg"
+        ],
+        "videos": ["https://www.youtube.com/watch?v=5jD0mELZPD8"]
+      },
+      "stats": {
+        "total_downloads": 2850000,
+        "subscribers": 35000,
+        "rating": 4.9
+      },
+      "is_premium": true,
+      "price": "$10 (Patreon)",
+      "created_at": "2019-04-06T00:00:00Z",
+      "updated_at": "2022-07-21T10:00:00Z"
+    },
+    {
+      "shader_id": "bsl-shaders",
+      "name": "BSL Shaders",
+      "full_name": "BSL Shaders",
+      "summary": "Shaders avec un excellent équilibre entre qualité visuelle et performance",
+      "description": "BSL Shaders offre une expérience visuelle exceptionnelle tout en restant accessible à la plupart des configurations. Il propose de nombreuses options de personnalisation pour adapter le rendu à vos préférences et aux capacités de votre PC.",
+      "author": {
+        "name": "CaptTatsu",
+        "website": "https://bitslablab.com/",
+        "donation_url": "https://www.patreon.com/capttatsu"
+      },
+      "versions": [
+        {
+          "version_number": "8.2.04",
+          "release_date": "2022-09-10T14:30:00Z",
+          "minecraft_versions": ["1.16.5", "1.17.1", "1.18.2", "1.19"],
+          "optifine_required": true,
+          "optifine_versions": ["HD U H7", "HD U H8", "HD U H9"],
+          "download_url": "https://www.curseforge.com/minecraft/customization/bsl-shaders/download/3945889",
+          "file_size": 2468753,
+          "download_count": 3725000,
+          "changelog": "Support pour Minecraft 1.19 et améliorations des reflets sur l'eau"
+        }
+      ],
+      "requirements": {
+        "minimum": {
+          "gpu": "NVIDIA GTX 750 Ti / AMD R7 260X",
+          "cpu": "Intel i3 6ème génération / AMD Ryzen 3 1200",
+          "ram": "4GB"
+        },
+        "recommended": {
+          "gpu": "NVIDIA GTX 1060 / AMD RX 570",
+          "cpu": "Intel i5 7ème génération / AMD Ryzen 5 1600",
+          "ram": "8GB"
+        }
+      },
+      "features": {
+        "graphical": [
+          "Ombres douces",
+          "Reflets sur l'eau",
+          "Éclairage volumétrique",
+          "Flou de mouvement",
+          "Profondeur de champ"
+        ]
+      },
+      "media": {
+        "logo": "https://example.com/bsl-logo.png",
+        "screenshots": [
+          "https://example.com/bsl-screenshot1.jpg",
+          "https://example.com/bsl-screenshot2.jpg"
+        ],
+        "videos": ["https://www.youtube.com/watch?v=c_LVvJnalI4"]
+      },
+      "stats": {
+        "total_downloads": 12500000,
+        "rating": 4.8
+      },
+      "is_premium": false,
+      "created_at": "2018-05-15T00:00:00Z",
+      "updated_at": "2022-09-10T14:30:00Z"
+    },
+    {
+      "shader_id": "complementary",
+      "name": "Complementary Shaders",
+      "full_name": "Complementary Shaders",
+      "summary": "Shaders optimisés avec une ambiance stylisée et des options très complètes",
+      "description": "Complementary Shaders est un pack de shaders très polyvalent axé sur l'équilibre visuel et les performances. Il offre une expérience visuelle exceptionnelle tout en restant accessible aux configurations modestes grâce à ses nombreux préréglages.",
+      "author": {
+        "name": "EminGT",
+        "website": "https://complementary.dev/",
+        "donation_url": "https://www.patreon.com/emingt"
+      },
+      "versions": [
+        {
+          "version_number": "4.6",
+          "release_date": "2022-10-05T18:45:00Z",
+          "minecraft_versions": ["1.16.5", "1.17.1", "1.18.2", "1.19.2"],
+          "optifine_required": true,
+          "optifine_versions": ["HD U H8", "HD U H9"],
+          "download_url": "https://www.curseforge.com/minecraft/customization/complementary-shaders/download/4001858",
+          "file_size": 3245678,
+          "download_count": 4250000,
+          "changelog": "Amélioration des performances et support pour Minecraft 1.19.2"
+        }
+      ],
+      "requirements": {
+        "minimum": {
+          "gpu": "NVIDIA GT 730 / AMD R7 240",
+          "cpu": "Intel i3 4ème génération / AMD FX-6300",
+          "ram": "4GB"
+        },
+        "recommended": {
+          "gpu": "NVIDIA GTX 970 / AMD RX 470",
+          "cpu": "Intel i5 6ème génération / AMD Ryzen 5 1500X",
+          "ram": "8GB"
+        }
+      },
+      "features": {
+        "graphical": [
+          "Nombreux préréglages de performance",
+          "Nuages volumétriques",
+          "Aurora boréale",
+          "Effets météorologiques",
+          "Ombres colorées"
+        ]
+      },
+      "media": {
+        "logo": "https://example.com/complementary-logo.png",
+        "screenshots": [
+          "https://example.com/complementary-screenshot1.jpg",
+          "https://example.com/complementary-screenshot2.jpg"
+        ],
+        "videos": ["https://www.youtube.com/watch?v=AhCfWyJ3Yfw"]
+      },
+      "stats": {
+        "total_downloads": 9800000,
+        "rating": 4.9
+      },
+      "is_premium": false,
+      "created_at": "2020-07-08T00:00:00Z",
+      "updated_at": "2022-10-05T18:45:00Z"
+    },
+    {
+      "shader_id": "sildurs-vibrant",
+      "name": "Sildur's Vibrant Shaders",
+      "full_name": "Sildur's Vibrant Shaders",
+      "summary": "Shaders accessibles avec plusieurs niveaux de performance",
+      "description": "Sildur's Vibrant Shaders est un pack de shaders populaire qui propose plusieurs versions (lite, medium, high, extreme) pour tous les types de configurations. Il offre un excellent équilibre entre qualité visuelle et performances.",
+      "author": {
+        "name": "Sildur",
+        "website": "https://sildurs-shaders.github.io/",
+        "donation_url": "https://www.patreon.com/sildur"
+      },
+      "versions": [
+        {
+          "version_number": "1.32",
+          "release_date": "2022-08-18T16:20:00Z",
+          "minecraft_versions": ["1.16.5", "1.17.1", "1.18.2", "1.19"],
+          "optifine_required": true,
+          "optifine_versions": ["HD U H7", "HD U H8", "HD U H9"],
+          "download_url": "https://sildurs-shaders.github.io/downloads/",
+          "file_size": {
+            "lite": 1245678,
+            "medium": 2345678,
+            "high": 3456789,
+            "extreme": 4567890
+          },
+          "download_count": 7850000,
+          "changelog": "Corrections de bugs et optimisations pour toutes les versions"
+        }
+      ],
+      "requirements": {
+        "lite": {
+          "gpu": "NVIDIA GT 710 / AMD R7 240",
+          "cpu": "Intel i3 3ème génération / AMD FX-4300",
+          "ram": "4GB"
+        },
+        "extreme": {
+          "gpu": "NVIDIA GTX 1060 / AMD RX 580",
+          "cpu": "Intel i5 7ème génération / AMD Ryzen 5 1600",
+          "ram": "8GB"
+        }
+      },
+      "features": {
+        "graphical": [
+          "Plusieurs niveaux de performance",
+          "Eau réaliste",
+          "Feuillage balancé par le vent",
+          "Ombres douces",
+          "Brouillard volumétrique"
+        ]
+      },
+      "media": {
+        "logo": "https://example.com/sildurs-logo.png",
+        "screenshots": [
+          "https://example.com/sildurs-screenshot1.jpg",
+          "https://example.com/sildurs-screenshot2.jpg"
+        ],
+        "videos": ["https://www.youtube.com/watch?v=0fSsZKqxHVg"]
+      },
+      "stats": {
+        "total_downloads": 16500000,
+        "rating": 4.7
+      },
+      "is_premium": false,
+      "created_at": "2016-09-22T00:00:00Z",
+      "updated_at": "2022-08-18T16:20:00Z"
+    },
+    {
+      "shader_id": "continuum",
+      "name": "Continuum Shaders",
+      "full_name": "Continuum Shaders",
+      "summary": "Shaders ultra-réalistes pour créer des rendus cinématiques",
+      "description": "Continuum est un pack de shaders haut de gamme visant à transformer Minecraft en une expérience visuellement époustouflante. Il est idéal pour les captures d'écran artistiques et les rendus cinématiques.",
+      "author": {
+        "name": "Continuum Graphics",
+        "website": "https://continuum.graphics/",
+        "donation_url": "https://www.patreon.com/continuumgraphics"
+      },
+      "versions": [
+        {
+          "version_number": "2.1",
+          "release_date": "2022-06-30T12:00:00Z",
+          "minecraft_versions": ["1.16.5", "1.17.1", "1.18.2"],
+          "optifine_required": true,
+          "optifine_versions": ["HD U H8", "HD U H9"],
+          "download_url": "https://www.continuum.graphics/shop",
+          "file_size": 18765432,
+          "download_count": 1250000,
+          "changelog": "Améliorations du système d'éclairage et des reflets"
+        }
+      ],
+      "requirements": {
+        "minimum": {
+          "gpu": "NVIDIA GTX 1070 / AMD RX Vega 56",
+          "cpu": "Intel i7 8ème génération / AMD Ryzen 7 2700X",
+          "ram": "16GB"
+        },
+        "recommended": {
+          "gpu": "NVIDIA RTX 2080 / AMD RX 6800 XT",
+          "cpu": "Intel i9 10ème génération / AMD Ryzen 9 3900X",
+          "ram": "32GB"
+        }
+      },
+      "features": {
+        "graphical": [
+          "Éclairage réaliste",
+          "Réflexions précises",
+          "Occlusion ambiante",
+          "Effets atmosphériques",
+          "Nuages volumétriques"
+        ]
+      },
+      "media": {
+        "logo": "https://example.com/continuum-logo.png",
+        "screenshots": [
+          "https://example.com/continuum-screenshot1.jpg",
+          "https://example.com/continuum-screenshot2.jpg"
+        ],
+        "videos": ["https://www.youtube.com/watch?v=eJ8qUJbQgYU"]
+      },
+      "stats": {
+        "total_downloads": 2750000,
+        "subscribers": 15000,
+        "rating": 4.8
+      },
+      "is_premium": true,
+      "price": "$10-20 (selon la version)",
+      "created_at": "2017-03-14T00:00:00Z",
+      "updated_at": "2022-06-30T12:00:00Z"
+    }
+  ]

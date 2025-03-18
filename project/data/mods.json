@@ -1,0 +1,637 @@
+[
+  {
+    "mod_id": "jei",
+    "name": "Just Enough Items",
+    "slug": "just-enough-items",
+    "summary": "Affiche les recettes et les utilisations des items",
+    "description": "Just Enough Items est un mod d'inventaire qui vous montre les recettes par simple survol et liste toutes les utilisations possibles des objets du jeu.",
+    "author": {
+      "name": "mezz",
+      "website": "https://github.com/mezz",
+      "donation_url": "https://www.patreon.com/mezz"
+    },
+    "versions": [
+      {
+        "version_number": "9.7.0.195",
+        "release_date": "2022-05-10T14:30:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/jei/download/3830826",
+        "file_size": 834695,
+        "download_count": 12450786,
+        "changelog": "Mise à jour pour Minecraft 1.18.2 et correction de bugs"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Affichage des recettes",
+        "Recherche d'items",
+        "Liste de favoris",
+        "Gestion d'inventaire"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/28/331/64/64/636579876397646786.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/269/359/screenshot-1.png",
+        "https://media.forgecdn.net/attachments/269/358/screenshot-2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 280574962,
+      "monthly_downloads": 4250000,
+      "rating": 4.8,
+      "reviews_count": 1295
+    },
+    "links": {
+      "website": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "issues": "https://github.com/mezz/JustEnoughItems/issues",
+      "source": "https://github.com/mezz/JustEnoughItems"
+    },
+    "categories": ["utility", "inventory", "crafting"],
+    "license": "MIT",
+    "created_at": "2015-06-23T00:00:00Z",
+    "updated_at": "2023-04-12T14:25:30Z"
+  },
+  {
+    "mod_id": "optifine",
+    "name": "OptiFine",
+    "slug": "optifine",
+    "summary": "Améliore les performances et graphismes de Minecraft",
+    "description": "OptiFine est un mod d'optimisation qui augmente les FPS, ajoute des shaders, des textures HD et de nombreuses options graphiques pour personnaliser l'expérience visuelle.",
+    "author": {
+      "name": "sp614x",
+      "website": "https://optifine.net",
+      "donation_url": "https://optifine.net/donate"
+    },
+    "versions": [
+      {
+        "version_number": "HD_U_H9",
+        "release_date": "2022-07-15T10:00:00Z",
+        "minecraft_versions": ["1.19"],
+        "loader": "optifine",
+        "loader_version": "standalone",
+        "download_url": "https://optifine.net/downloadx?f=OptiFine_1.19_HD_U_H9.jar",
+        "file_size": 5864321,
+        "download_count": 20145320,
+        "changelog": "Support pour Minecraft 1.19"
+      }
+    ],
+    "dependencies": [],
+    "features": {
+      "functionality": [
+        "Optimisation FPS",
+        "Support shaders",
+        "Textures HD",
+        "Antialiasing",
+        "Options graphiques avancées"
+      ]
+    },
+    "media": {
+      "logo": "https://optifine.net/favicon.ico",
+      "screenshots": [
+        "https://optifine.net/img/screenshot1.png",
+        "https://optifine.net/img/screenshot2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 350874125,
+      "monthly_downloads": 5621000,
+      "rating": 4.9,
+      "reviews_count": 2547
+    },
+    "links": {
+      "website": "https://www.optifine.net",
+      "issues": "https://github.com/sp614x/optifine/issues"
+    },
+    "categories": ["performance", "graphics"],
+    "license": "Proprietary",
+    "created_at": "2011-01-11T00:00:00Z",
+    "updated_at": "2023-03-25T09:10:00Z"
+  },
+  {
+    "mod_id": "biomes-o-plenty",
+    "name": "Biomes O' Plenty",
+    "slug": "biomes-o-plenty",
+    "summary": "Ajoute plus de 90 nouveaux biomes à Minecraft",
+    "description": "Biomes O' Plenty ajoute une grande variété de biomes, plantes, fleurs, arbres et autres fonctionnalités naturelles pour enrichir votre monde Minecraft.",
+    "author": {
+      "name": "Glitchfiend Team",
+      "website": "https://github.com/Glitchfiend",
+      "donation_url": "https://www.patreon.com/Glitchfiend"
+    },
+    "versions": [
+      {
+        "version_number": "16.0.0.109",
+        "release_date": "2022-09-02T16:30:00Z",
+        "minecraft_versions": ["1.19.2"],
+        "loader": "forge",
+        "loader_version": "43.0.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty/download/4085252",
+        "file_size": 4563210,
+        "download_count": 8624157,
+        "changelog": "Mise à jour pour Minecraft 1.19.2"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=43.0.0"
+      },
+      {
+        "mod_id": "terrablender",
+        "type": "required",
+        "version_range": ">=2.0.0.0"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "90+ nouveaux biomes",
+        "Nouveaux blocs",
+        "Nouvelles plantes",
+        "Nouveaux arbres",
+        "Nouvelles fleurs"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/22/223/64/64/636373809316724039.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/350/457/biomes1.png",
+        "https://media.forgecdn.net/attachments/350/458/biomes2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 161245789,
+      "monthly_downloads": 1845000,
+      "rating": 4.7,
+      "reviews_count": 1125
+    },
+    "links": {
+      "website": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+      "issues": "https://github.com/Glitchfiend/BiomesOPlenty/issues"
+    },
+    "categories": ["world generation", "biomes", "nature"],
+    "license": "MIT",
+    "created_at": "2013-02-21T00:00:00Z",
+    "updated_at": "2023-01-18T11:45:30Z"
+  },
+  {
+    "mod_id": "applied-energistics-2",
+    "name": "Applied Energistics 2",
+    "slug": "applied-energistics-2",
+    "summary": "Système de stockage numérique avancé",
+    "description": "Applied Energistics 2 est un mod technique qui ajoute un système de stockage numérique élaboré, permettant de stocker des objets sous forme d'énergie et d'accéder à votre inventaire via un réseau personnalisable.",
+    "author": {
+      "name": "AlgorithmX2",
+      "website": "https://ae2.ae-mod.info",
+      "donation_url": "https://github.com/sponsors/AlgorithmX2"
+    },
+    "versions": [
+      {
+        "version_number": "11.1.4",
+        "release_date": "2022-08-15T18:20:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/download/3945948",
+        "file_size": 7658421,
+        "download_count": 6321547,
+        "changelog": "Correction de bugs et optimisations"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Stockage numérique",
+        "Autocraft",
+        "Réseau ME",
+        "Contrôleurs",
+        "Terminaux",
+        "Processeurs"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/110/691/64/64/637007470431344180.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/125/192/ae2-storage.png",
+        "https://media.forgecdn.net/attachments/125/193/ae2-network.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 121654789,
+      "monthly_downloads": 1254000,
+      "rating": 4.8,
+      "reviews_count": 987
+    },
+    "links": {
+      "website": "https://ae2.ae-mod.info",
+      "issues": "https://github.com/AppliedEnergistics/Applied-Energistics-2/issues"
+    },
+    "categories": ["technology", "storage", "automation"],
+    "license": "LGPL-3.0",
+    "created_at": "2014-03-12T00:00:00Z",
+    "updated_at": "2023-02-28T13:15:45Z"
+  },
+  {
+    "mod_id": "tinkers-construct",
+    "name": "Tinkers' Construct",
+    "slug": "tinkers-construct",
+    "summary": "Outils et armes personnalisables",
+    "description": "Tinkers' Construct permet de créer des outils et des armes entièrement personnalisables avec différents matériaux, chacun offrant des caractéristiques uniques. Améliorez vos outils au fil du temps avec des modificateurs spéciaux.",
+    "author": {
+      "name": "mDiyo et boni",
+      "website": "https://github.com/SlimeKnights",
+      "donation_url": "https://www.patreon.com/slimeknights"
+    },
+    "versions": [
+      {
+        "version_number": "3.6.3.111",
+        "release_date": "2022-07-05T12:45:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/download/3934469",
+        "file_size": 15624789,
+        "download_count": 9854123,
+        "changelog": "Nouvelles fonctionnalités et corrections de bugs"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      },
+      {
+        "mod_id": "mantle",
+        "type": "required",
+        "version_range": ">=1.9.31"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Outils personnalisables",
+        "Armes personnalisables",
+        "Fusion des métaux",
+        "Modificateurs d'outils",
+        "Nouvelles structures"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/28/805/64/64/636584589089753189.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/247/982/tinkers1.png",
+        "https://media.forgecdn.net/attachments/247/983/tinkers2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 145236987,
+      "monthly_downloads": 1652000,
+      "rating": 4.9,
+      "reviews_count": 1458
+    },
+    "links": {
+      "website": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct",
+      "issues": "https://github.com/SlimeKnights/TinkersConstruct/issues"
+    },
+    "categories": ["tools", "weapons", "crafting", "technology"],
+    "license": "MIT",
+    "created_at": "2013-06-15T00:00:00Z",
+    "updated_at": "2023-01-05T17:20:10Z"
+  },
+  {
+    "mod_id": "journeymap",
+    "name": "JourneyMap",
+    "slug": "journeymap",
+    "summary": "Cartographie en temps réel avec minimaps",
+    "description": "JourneyMap crée une carte de votre monde Minecraft en temps réel pendant que vous explorez. Vous pouvez afficher la carte dans le jeu sous forme de minimap ou en plein écran, et même y accéder depuis un navigateur web.",
+    "author": {
+      "name": "techbrew",
+      "website": "https://journeymap.info",
+      "donation_url": "https://www.patreon.com/journeymap"
+    },
+    "versions": [
+      {
+        "version_number": "5.8.5",
+        "release_date": "2022-07-20T14:15:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/3913403",
+        "file_size": 6521478,
+        "download_count": 11254789,
+        "changelog": "Améliorations de performance et corrections"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Cartographie en temps réel",
+        "Minimap",
+        "Waypoints",
+        "Interface web",
+        "Options de personnalisation"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/7/476/64/64/635489306313675253.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/267/252/journeymap1.png",
+        "https://media.forgecdn.net/attachments/267/253/journeymap2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 138547895,
+      "monthly_downloads": 1854000,
+      "rating": 4.7,
+      "reviews_count": 1236
+    },
+    "links": {
+      "website": "https://journeymap.info",
+      "issues": "https://github.com/TeamJM/journeymap/issues"
+    },
+    "categories": ["utility", "map", "information"],
+    "license": "All Rights Reserved",
+    "created_at": "2013-09-24T00:00:00Z",
+    "updated_at": "2023-03-14T08:30:45Z"
+  },
+  {
+    "mod_id": "twilight-forest",
+    "name": "The Twilight Forest",
+    "slug": "the-twilight-forest",
+    "summary": "Une nouvelle dimension forestière pleine d'aventures",
+    "description": "The Twilight Forest ajoute une dimension mystérieuse remplie de forêts denses, de créatures mythiques et de donjons épiques à explorer. Accédez-y en créant un portail spécial dans le monde normal.",
+    "author": {
+      "name": "Benimatic",
+      "website": "https://github.com/TeamTwilight/twilightforest",
+      "donation_url": "https://www.patreon.com/teamtwilightforest"
+    },
+    "versions": [
+      {
+        "version_number": "4.1.1425",
+        "release_date": "2022-09-10T15:45:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/download/3991311",
+        "file_size": 17854621,
+        "download_count": 7854123,
+        "changelog": "Nouvelles structures et corrections de bugs"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Nouvelle dimension",
+        "Donjons uniques",
+        "Nouveaux mobs",
+        "Boss épiques",
+        "Progression d'aventure"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/17/124/64/64/635701459723206722.jpeg",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/260/345/twilight1.png",
+        "https://media.forgecdn.net/attachments/260/346/twilight2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 98745632,
+      "monthly_downloads": 1025000,
+      "rating": 4.8,
+      "reviews_count": 1187
+    },
+    "links": {
+      "website": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
+      "issues": "https://github.com/TeamTwilight/twilightforest/issues"
+    },
+    "categories": ["dimension", "adventure", "world generation"],
+    "license": "LGPL-2.1",
+    "created_at": "2012-08-20T00:00:00Z",
+    "updated_at": "2023-02-12T19:45:15Z"
+  },
+  {
+    "mod_id": "quark",
+    "name": "Quark",
+    "slug": "quark",
+    "summary": "Améliorations de gameplay essentielles",
+    "description": "Quark ajoute de nombreuses fonctionnalités qui semblent appartenir naturellement au jeu vanilla. Il apporte des améliorations à tous les aspects du jeu, de la construction à l'exploration, en passant par l'automatisation et la décoration.",
+    "author": {
+      "name": "Vazkii",
+      "website": "https://vazkii.net",
+      "donation_url": "https://www.patreon.com/Vazkii"
+    },
+    "versions": [
+      {
+        "version_number": "3.2-357",
+        "release_date": "2022-08-12T11:30:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/quark/download/3941213",
+        "file_size": 9854123,
+        "download_count": 8654123,
+        "changelog": "Nouvelles fonctionnalités et corrections"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      },
+      {
+        "mod_id": "autoreglib",
+        "type": "required",
+        "version_range": ">=1.7-53"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Nouveaux blocs décoratifs",
+        "Améliorations d'interface",
+        "Fonctionnalités d'automatisation",
+        "Mécaniques de construction",
+        "Améliorations des mobs"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/52/274/64/64/637029503782118282.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/289/456/quark1.png",
+        "https://media.forgecdn.net/attachments/289/457/quark2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 112457896,
+      "monthly_downloads": 1423000,
+      "rating": 4.9,
+      "reviews_count": 1354
+    },
+    "links": {
+      "website": "https://quark.vazkii.net",
+      "issues": "https://github.com/Vazkii/Quark/issues"
+    },
+    "categories": ["utility", "decoration", "world generation", "tweaks"],
+    "license": "CC BY-NC-SA 3.0",
+    "created_at": "2016-04-17T00:00:00Z",
+    "updated_at": "2023-01-30T14:20:45Z"
+  },
+  {
+    "mod_id": "mekanism",
+    "name": "Mekanism",
+    "slug": "mekanism",
+    "summary": "Technologie avancée et machines industrielles",
+    "description": "Mekanism est un mod technologique ajoutant diverses machines pour le traitement des métaux, la génération d'énergie, et l'automatisation. Il inclut un système de tuyaux avancé, des jetpacks, des outils alimentés et bien plus encore.",
+    "author": {
+      "name": "bradyaidanc",
+      "website": "https://github.com/mekanism/Mekanism",
+      "donation_url": "https://www.patreon.com/mekanism"
+    },
+    "versions": [
+      {
+        "version_number": "10.2.5",
+        "release_date": "2022-07-25T16:20:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/mekanism/download/3915965",
+        "file_size": 21548965,
+        "download_count": 7985462,
+        "changelog": "Corrections de bugs et optimisations"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Traitement des métaux",
+        "Système de tuyaux et câbles",
+        "Générateurs d'énergie",
+        "Outils alimentés",
+        "Jetpacks et armures"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/44/94/64/64/636023972818778914.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/305/987/mekanism1.png",
+        "https://media.forgecdn.net/attachments/305/988/mekanism2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 105247896,
+      "monthly_downloads": 1352000,
+      "rating": 4.7,
+      "reviews_count": 1125
+    },
+    "links": {
+      "website": "https://wiki.aidancbrady.com/wiki/Main_Page",
+      "issues": "https://github.com/mekanism/Mekanism/issues"
+    },
+    "categories": ["technology", "energy", "transportation", "automation"],
+    "license": "MIT",
+    "created_at": "2013-03-18T00:00:00Z",
+    "updated_at": "2023-02-05T13:40:20Z"
+  },
+  {
+    "mod_id": "botania",
+    "name": "Botania",
+    "slug": "botania",
+    "summary": "Magie naturelle basée sur les fleurs",
+    "description": "Botania est un mod technique centré autour de la magie naturelle et des fleurs. Créez des systèmes complexes avec des fleurs magiques qui interagissent entre elles pour automatiser divers aspects du jeu sans utiliser de tuyaux ou de câbles.",
+    "author": {
+      "name": "Vazkii",
+      "website": "https://vazkii.net",
+      "donation_url": "https://www.patreon.com/Vazkii"
+    },
+    "versions": [
+      {
+        "version_number": "434",
+        "release_date": "2022-08-05T13:15:00Z",
+        "minecraft_versions": ["1.18.2"],
+        "loader": "forge",
+        "loader_version": "40.1.0+",
+        "download_url": "https://www.curseforge.com/minecraft/mc-mods/botania/download/3936090",
+        "file_size": 24856987,
+        "download_count": 6985412,
+        "changelog": "Corrections et améliorations de performance"
+      }
+    ],
+    "dependencies": [
+      {
+        "mod_id": "forge",
+        "type": "required",
+        "version_range": ">=40.1.0"
+      },
+      {
+        "mod_id": "patchouli",
+        "type": "required",
+        "version_range": ">=1.18.2-71"
+      }
+    ],
+    "features": {
+      "functionality": [
+        "Fleurs magiques",
+        "Génération de mana",
+        "Outils enchantés",
+        "Automatisation naturelle",
+        "Armures spéciales"
+      ]
+    },
+    "media": {
+      "logo": "https://media.forgecdn.net/avatars/thumbnails/44/611/64/64/636046813717924072.png",
+      "screenshots": [
+        "https://media.forgecdn.net/attachments/301/254/botania1.png",
+        "https://media.forgecdn.net/attachments/301/255/botania2.png"
+      ]
+    },
+    "stats": {
+      "total_downloads": 98542365,
+      "monthly_downloads": 1123000,
+      "rating": 4.8,
+      "reviews_count": 1245
+    },
+    "links": {
+      "website": "https://botaniamod.net",
+      "issues": "https://github.com/VazkiiMods/Botania/issues"
+    },
+    "categories": ["magic", "automation", "technology", "utility"],
+    "license": "Botania License",
+    "created_at": "2014-01-25T00:00:00Z",
+    "updated_at": "2023-03-08T11:15:30Z"
+  }
+]
