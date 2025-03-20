@@ -62,20 +62,28 @@ Vous devrez créer des requêtes permettant de :
 7. **Récupérer trois documents correspondant à une expression régulière (`$regex`) de votre choix (sans utiliser `$limit`)** :
 
    ```js
-   db.shaders.find({ name: { $regex: /Shaders/i } }).limit(3);
-   ```
-
-8. **Requête pour récupérer les modpacks ayant comme mods "jei"** :
-
-   ```js
-   db.modpacks.find({ "mods.mod_id": "jei" });
+   db.mods.find({ name: { $regex: /bi/i } });
    ```
 
 ---
 
 ## Étape 3 : Création des mises à jour (update)
 
-Avant d’exécuter ces modifications, faites un dump de votre base de données.
+Le dump de la base de données MongoDB est disponible dans le dossier `./data/backup` du projet.
+
+### Sauvegarde et restauration
+
+Dump de la base de données
+
+```bash
+mongodump --host <host> --port <port> --username <username> --password <password> --db minecraft --out ./backup
+```
+
+### Restauration de la base de données
+
+```bash
+mongorestore --host <host> --port <port> --username <username> --password <password> --db minecraft ./backup/minecraft_dump
+```
 
 1. **Modifier une valeur spécifique dans le premier document retourné par un filtre correspondant à plusieurs documents** :
 
@@ -109,20 +117,6 @@ Avant d’exécuter ces modifications, faites un dump de votre base de données.
    ```js
    db.modpacks.deleteMany({});
    ```
-
-#### Sauvegarde et restauration
-
-Dump de la base de données
-
-```bash
-mongodump --host localhost --port 27017 --username admin --password password --db minecraft_mods --out ./backup
-```
-
-Restauration de la base de données
-
-```bash
-mongorestore --host localhost --port 27017 --username admin --password password --db minecraft_mods ./backup/minecraft_mods
-```
 
 **Exemples d'utilisation avancée :**
 
@@ -356,3 +350,92 @@ db.modpacks.aggregate([
 ```
 
 Cette requête permet d'obtenir une vue complète de chaque modpack avec les détails des mods et shaders qu'il contient, montrant ainsi comment les trois collections sont liées entre elles.
+
+## Etape 5 : Création d'index pour les collections Minecraft
+
+### 1. Index uniques pour les identifiants principaux
+
+Voici les requêtes MongoDB pour créer des index uniques sur les identifiants principaux de chaque collection :
+
+```js
+// Index unique sur mod_id pour la collection mods
+db.mods.createIndex({ "mod_id": 1 }, { unique: true, name: "idx_unique_mod_id" })
+
+// Index unique sur modpack_id pour la collection modpacks
+db.modpacks.createIndex({ "modpack_id": 1 }, { unique: true, name: "idx_unique_modpack_id" })
+
+// Index unique sur shader_id pour la collection shaders
+db.shaders.createIndex({ "shader_id": 1 }, { unique: true, name: "idx_unique_shader_id" })
+```
+
+### 2. Index supplémentaires pertinents
+
+#### Index de recherche texte pour les mods
+
+Cet index permettra d'effectuer des recherches textuelles efficaces sur les noms, descriptions et fonctionnalités des mods :
+
+```js
+// Index de recherche texte sur la collection mods
+db.mods.createIndex(
+  {
+    "name": "text",
+    "summary": "text",
+    "description": "text",
+    "features.functionality": "text"
+  },
+  {
+    "name": "idx_text_search_mods",
+    "weights": {
+      "name": 10,
+      "summary": 5,
+      "description": 3,
+      "features.functionality": 2
+    },
+    "default_language": "french"
+  }
+)
+```
+
+#### Index pour les shaders par configuration matérielle
+
+Cet index permettra de trouver rapidement des shaders compatibles avec une configuration spécifique :
+
+```js
+// Index sur les configurations matérielles des shaders
+db.shaders.createIndex(
+  { 
+    "requirements.minimum.gpu": 1, 
+    "stats.rating": -1 
+  },
+  { "name": "idx_shader_compatible_hardware" }
+)
+```
+
+#### Index pour rechercher des modpacks par mod inclus
+
+Cet index permettra de trouver efficacement tous les modpacks qui incluent un mod spécifique :
+
+```js
+// Index pour rechercher des modpacks par mod inclus
+db.modpacks.createIndex(
+  { "mods.mod_id": 1, "download_count": -1 },
+  { "name": "idx_modpacks_by_mod" }
+)
+```
+
+#### Index pour la compatibilité des versions
+
+```js
+// Index pour la compatibilité des versions Minecraft
+db.modpacks.createIndex(
+  { "minecraft_version": 1, "loader": 1 },
+  { "name": "idx_modpack_compatibility" }
+)
+
+db.mods.createIndex(
+  { "versions.minecraft_versions": 1 },
+  { "name": "idx_mod_minecraft_version" }
+)
+```
+
+Ces index amélioreront considérablement les performances des requêtes courantes sur vos collections MongoDB, permettant des recherches rapides et efficaces de mods, modpacks et shaders.
